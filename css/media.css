@@ -1,0 +1,53 @@
+@media only screen and (max-width: 768px) {
+  .header-section {
+    height: auto;
+    background-position: center;
+}
+.banner-text {
+  text-align: center;
+}
+.banner-text h3 {
+  line-height: 1;
+  font-size: 1.2em;
+}
+.banner-text h1 {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+.banner-image {
+  padding-top: 20px;
+}
+.navbar-brand img {
+  width: 100px;
+}
+.section-two {
+  background-position: center;
+  padding: 0em 1em;
+  margin: 5em 0;
+}
+.section-two h2 {
+  color: #28123e;
+  font-weight: 800;
+  font-weight: bolder;
+  font-size: 1.3em;
+}
+.section-three .services {
+  border-right: 0;
+  border-bottom: 1px solid #000;
+  padding: 2em
+}
+.section-four {
+  background-position: 26%;
+}
+
+.section-four .portfolio {
+  margin-bottom: 10px;
+  height: auto;
+}
+
+.grid, .clients-grid {
+  grid-template-columns: repeat(1,2fr);
+  grid-gap: 0;
+}
+
+}
